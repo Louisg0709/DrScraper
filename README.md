@@ -3,7 +3,7 @@
 1) Make sure you have python installed<br />
 2) install selenium. Do this by going into a console andd typing 'pip install selenium'<br />
 3) Go to C:\Users\'your username'\AppData\Local\Google\Chrome in the file browser and copy default and rename the copy chromedriver.<br />
-4) Edit timestables.py so that user= your username<br />
+4) Change the file address on line 24 to your google info file.(The one we made in the previous step).  <br />
 5) navigate to route directory of project in console<br />
 6) type python timestables.py<br />
 7) log in to dr frost<br />
