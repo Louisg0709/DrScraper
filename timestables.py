@@ -21,7 +21,7 @@ options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
 
 #Gathering user data
-options.add_argument(r"user-data-dir=C:\Users\", user, "\AppData\Local\Google\Chrome\chromedriver")
+options.add_argument(r"user-data-dir=C:\Users\louis\AppData\Local\Google\Chrome\chromedriver")
 
 #Directs python to webdriver location
 driver = webdriver.Chrome(executable_path=r'./chromedriver_win32/chromedriver.exe', options=options)
