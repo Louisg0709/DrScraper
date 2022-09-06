@@ -70,7 +70,7 @@ answerbox.send_keys(str(answer))
 time.sleep(0.1)#program waits so dr frost can update
 """
 
-for score in range(20):
+for score in range(150):
     time.sleep(0.5)#program waits so dr frost can update
     #works out answer
     #getanswer('xpath', '//*[@id="question"]')
@@ -84,6 +84,7 @@ for score in range(20):
     print(answer)
     #prepares to type answer in
     click('xpath', '//*[@id="calculator-display"]')
+    answer=int(answer)
     answer=str(answer)
     #question = question.replace(".0", "")
     #types answer
